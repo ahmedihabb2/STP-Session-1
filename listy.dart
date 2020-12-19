@@ -21,9 +21,8 @@ void main() {
               ),
               padding: EdgeInsets.all(12),
               child: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                   Text("Add A New Item" , style: TextStyle(fontSize: 20 , color: Colors.grey),),
+                   Expanded(child: Text("Add A New Item" , style: TextStyle(fontSize: 20 , color: Colors.grey),)),
                   Icon(Icons.add , color: Colors.grey[600],),
                 ],
               ),
